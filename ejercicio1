@@ -1,0 +1,8 @@
+userName // camel
+user_name // snake
+UserName // pascal
+user-name //quebab
+
+// var es la forma antigua de declarar variables y es accesible desde cual quier parte del codigo lo que puede hacer que si generas dos variables con el mismo nombre haya solapamiento.
+// let actualmente es la forma mas habitual y recomendada de usar ya que tiene alcance de bloque por lo que cuando el bloque finalice la variable no afecta al resto del codigo. se puedenb tener varias variables con el mismo nombre siempre y cuando esten en distinto bloque.
+// const es una variable que no puede o no debe ser cambiada y tiene alcance de bloque igual que let 
