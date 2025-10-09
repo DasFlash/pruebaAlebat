@@ -1,6 +1,6 @@
 let race2: "Husky" | "Labrador" | "Chucho";
 
-type Bird2 = {
+type Bird = {
     name: string
     canEat: boolean
     canDrink: boolean
@@ -8,7 +8,7 @@ type Bird2 = {
     canFly: boolean
 }
 
-type Dog2 = Bird & {
+type Dog = Bird & {
     race: string
     age: number
     }
@@ -25,7 +25,7 @@ type Snake = {
 }
 
 
-const myDog2: Dog = {
+const myDog: Dog = {
     name: "Firulais",
     canEat: true,
     canDrink: true,
