@@ -1,4 +1,3 @@
-let race2: "Husky" | "Labrador" | "Chucho";
 
 type Bird = {
     name: string
@@ -9,7 +8,7 @@ type Bird = {
 }
 
 type Dog = Bird & {
-    race: string
+    race: "Husky" | "Labrador" | "Chucho"
     age: number
     }
 
